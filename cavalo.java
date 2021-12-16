@@ -7,4 +7,8 @@ public class cavalo extends Animal {
 	public void correr() {
 		System.out.println("O cavalo deve correr!");
 	}
+	@Override
+	public void emitirSom() {
+		System.out.println("Emitir som de cavalo...");
+	}
 }

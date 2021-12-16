@@ -1,9 +1,13 @@
 package POOHerança;
 
-public class Animal {
+public abstract class Animal {
 	private String nome;
 	private int idade;
 	private String som;
+	
+	//metodo abstrato
+	public abstract void emitirSom();
+	
 	
 	public String getNome() {
 		return nome;

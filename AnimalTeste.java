@@ -11,18 +11,24 @@ public class AnimalTeste {
 		Cachorro1.setIdade(2);
 		Cachorro1.setSom("late");
 		Cachorro1.correr();
-		Cavalo1.correr();
-		Cavalo1.setNome("Donna");
-		Cavalo1.setIdade(5);
-		Cavalo1.setSom("relincha");
+		Cachorro1.emitirSom();
+		
+		System.out.println("O cachorro chama " + Cachorro1.getNome() + ", possui " + Cachorro1.getIdade() + " anos e ele " + Cachorro1.getSom() + ".");
+		System.out.println("\n");
+		
 		Preguiça1.setNome("Jujuba");
 		Preguiça1.setIdade(9);
 		Preguiça1.setSom("balida");
 		Preguiça1.subir();
-	
-		
-		System.out.println("O cachorro chama " + Cachorro1.getNome() + ", possui " + Cachorro1.getIdade() + " anos e ele " + Cachorro1.getSom() + ".");
+		Preguiça1.emitirSom();
 		System.out.println("A preguiça chama " + Preguiça1.getNome() + ", possui " + Preguiça1.getIdade() + " anos e ela " + Preguiça1.getSom() + ".");
+		System.out.println("\n");
+		
+		Cavalo1.correr();
+		Cavalo1.setNome("Donna");
+		Cavalo1.setIdade(5);
+		Cavalo1.setSom("relincha");
+		Cavalo1.emitirSom();
 		System.out.println("O cavalo chama " + Cavalo1.getNome() + ", possui " + Cavalo1.getIdade() + " anos e ela " + Cavalo1.getSom() + ".");
 		
 	}
